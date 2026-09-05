@@ -1,0 +1,440 @@
+html {
+  font-size: 14px;
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.content {
+    flex: 1; /* 撐開中間內容區，footer自然貼底 */
+}
+
+
+body {
+    margin: 0;
+    padding-bottom: 60px; /* 預留空間給固定 footer */
+    font-family: sans-serif;
+}
+
+.footer2 {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 60px;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+    padding: 15px 0; 
+}
+
+
+.app-lang-nav .dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+
+    .app-lang-nav .dropdown-menu .dropdown-item:hover,
+    .app-lang-nav .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.12);
+    }
+
+
+.footer-bottom {
+    background-color: #212529;
+    color: #8E8E8E;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 60px; 
+}
+
+/* 暫時棄用 */
+.footer-fixed-google {
+    background-color: #6C6C6C;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 80px;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+    padding: 15px 0; 
+}
+
+/* kgms ads */
+   .footer-fixed {
+       position: fixed;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       background-color: #f5f5f5;
+       border-top: 1px solid #ccc;
+       box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+       z-index: 1000;
+   }
+
+.footer-content {
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center;     /* 垂直置中 */
+    gap: 10px;               /* 元素間距 */
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+   .close-btn {
+       position: absolute;
+       top: 10px;
+       right: 15px;
+       font-size: 18px;
+       cursor: pointer;
+       background: #ddd;
+       padding: 2px 8px;
+       border-radius: 3px;
+   }
+
+   @@media (max-width: 600px) {
+       .footer-content {
+           font-size: 14px;
+           padding: 10px;
+       }
+       .close-btn {
+           top: 5px;
+           right: 10px;
+       }
+   }
+.wide-main {
+    margin: 0;
+}
+
+.wide-content {
+    width: 100%;
+    padding: 0;
+}
+/* ===== Global Dark Theme Override ===== */
+
+html, body {
+    background: #08111f;
+    color: #e5e7eb;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 60px;
+    font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+}
+
+.content {
+    flex: 1;
+    background: transparent;
+}
+
+.wide-main,
+.wide-content {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.main-content.main-content--market {
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+
+.footer2 {
+    color: #e5e7eb;
+}
+
+.footer-bottom {
+    background-color: #0b1220;
+    color: #94a3b8;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 60px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.footer-fixed-google {
+    background-color: #111827;
+    color: #e5e7eb;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111827;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 -6px 20px rgba(0,0,0,0.25);
+    z-index: 1000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #cbd5e1;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+
+@@media (max-width: 600px) {
+    .footer-content {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .close-btn {
+        top: 5px;
+        right: 10px;
+    }
+}
+
+/* ===== App Layout Full Width Dark Theme ===== */
+
+html, body {
+    min-height: 100%;
+    background: #121a26;
+    color: #dbe3ee;
+}
+
+    body.app-body {
+        margin: 0;
+        padding-bottom: 60px;
+        font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+        background: radial-gradient(circle at top left, rgba(59, 130, 246, 0.05), transparent 28%), radial-gradient(circle at top right, rgba(16, 185, 129, 0.04), transparent 24%), linear-gradient(180deg, #121a26 0%, #172131 100%);
+        color: #dbe3ee;
+    }
+
+.app-header {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+.app-shell {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background: transparent;
+}
+
+.app-main {
+    margin: 0 !important;
+    min-height: calc(100vh - 64px);
+    background: transparent;
+}
+
+.app-side {
+    background: rgba(10, 16, 26, 0.88);
+    border-left: 1px solid rgba(255,255,255,0.04);
+    border-right: 1px solid rgba(255,255,255,0.04);
+}
+
+.app-content {
+    background: transparent !important;
+    color: #dbe3ee !important;
+    padding: 0 !important;
+    min-height: calc(100vh - 64px);
+}
+
+    /* 若各頁最外層還有 container，避免再縮一次 */
+    .app-content > .container,
+    .app-content > .container-fluid,
+    .app-content > .wide-main,
+    .app-content > .wide-content {
+        max-width: none !important;
+        width: 100% !important;
+    }
+
+/* 一般頁面常見元件深色化 */
+.card,
+.modal-content,
+.dropdown-menu,
+.list-group-item,
+.accordion-item,
+.offcanvas,
+.toast,
+.popover {
+    background-color: #1a2434;
+    color: #dbe3ee;
+    border-color: rgba(255,255,255,0.08);
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-color: #dbe3ee;
+    --bs-table-border-color: rgba(255,255,255,0.08);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    color: #dbe3ee;
+    background-color: rgba(255,255,255,0.02);
+}
+
+.table-hover > tbody > tr:hover > * {
+    color: #fff;
+    background-color: rgba(255,255,255,0.04);
+}
+
+.form-control,
+.form-select,
+textarea,
+.input-group-text {
+    background-color: #111927;
+    color: #e8eef7;
+    border: 1px solid rgba(255,255,255,0.12);
+}
+
+    .form-control::placeholder,
+    textarea::placeholder {
+        color: #8da0b7;
+    }
+
+    .form-control:focus,
+    .form-select:focus,
+    textarea:focus {
+        background-color: #111927;
+        color: #fff;
+        border-color: rgba(96,165,250,0.5);
+        box-shadow: 0 0 0 0.2rem rgba(59,130,246,0.16);
+    }
+
+.bg-white,
+.bg-light {
+    background-color: #1a2434 !important;
+    color: #dbe3ee !important;
+}
+
+.text-dark {
+    color: #eef4fb !important;
+}
+
+.text-muted,
+.text-secondary {
+    color: #93a4bb !important;
+}
+
+.border,
+.border-top,
+.border-bottom,
+.border-start,
+.border-end,
+hr {
+    border-color: rgba(255,255,255,0.08) !important;
+}
+
+.footer-bottom {
+    background-color: #111927;
+    color: #93a4bb;
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.footer-fixed,
+.footer-fixed-google {
+    background-color: #1a2434;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 -6px 20px rgba(0,0,0,0.25);
+}
+
+.footer-content {
+    color: #c9d4e3;
+}
+
+.close-btn {
+    background: #273449;
+    color: #e8eef7;
+}
+
+/* ===== 2026-04 Theme Lighten + Navbar layering fixes ===== */
+:root {
+    --app-header-height: 64px;
+}
+
+body.app-body {
+    background: radial-gradient(circle at top left, rgba(96, 165, 250, 0.08), transparent 34%), radial-gradient(circle at top right, rgba(52, 211, 153, 0.08), transparent 30%), linear-gradient(180deg, #1a2436 0%, #202d42 100%);
+    color: #e4ebf5;
+}
+
+.app-shell {
+    padding-top: var(--app-header-height);
+}
+
+.app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1080;
+}
+
+.app-navbar {
+    min-height: var(--app-header-height);
+    background: rgba(22, 34, 52, 0.96) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+    backdrop-filter: blur(8px);
+}
+
+.app-navbar .navbar-brand,
+.app-navbar .nav-link {
+    color: #e6edf7 !important;
+}
+
+.app-navbar .nav-link:hover,
+.app-navbar .nav-link:focus {
+    color: #9ec5ff !important;
+}
+
+.app-side {
+    background: rgba(21, 32, 48, 0.82);
+}
+
+.card,
+.modal-content,
+.dropdown-menu,
+.list-group-item,
+.accordion-item,
+.offcanvas,
+.toast,
+.popover {
+    background-color: #243247;
+    color: #e4ebf5;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba(255, 255, 255, 0.04);
+}

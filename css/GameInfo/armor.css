@@ -1,0 +1,258 @@
+/* ===== GameInfo / Armor ===== */
+
+.armor-page {
+    padding: 0.75rem 0.5rem 2rem;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    color: #e2e8f0;
+}
+
+/* ---------- Category Tabs ---------- */
+.armor-category-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 0.75rem;
+    padding: 0 0.25rem;
+}
+
+.armor-page .category-tab {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(100, 116, 139, 0.25);
+    color: #94a3b8;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.35rem 0.85rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.armor-page .category-tab:hover {
+    background: rgba(51, 65, 85, 0.8);
+    color: #cbd5e1;
+    border-color: rgba(148, 163, 184, 0.35);
+}
+
+.armor-page .category-tab.active {
+    background: linear-gradient(135deg, rgba(234, 179, 8, 0.28), rgba(250, 204, 21, 0.16));
+    color: #fef3c7;
+    border-color: rgba(250, 204, 21, 0.4);
+    box-shadow: 0 0 12px rgba(234, 179, 8, 0.12);
+}
+
+/* ---------- Loading ---------- */
+.armor-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 4rem 1rem;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.armor-spinner {
+    width: 24px;
+    height: 24px;
+    border: 3px solid rgba(148, 163, 184, 0.2);
+    border-top-color: #facc15;
+    border-radius: 50%;
+    animation: armor-spin 0.8s linear infinite;
+}
+
+@keyframes armor-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ---------- Table Wrap ---------- */
+.armor-table-wrap {
+    overflow: auto;
+    max-height: calc(100vh - 170px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(15, 23, 42, 0.6);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* ---------- Table ---------- */
+.armor-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: max-content;
+    min-width: 100%;
+    font-size: 0.78rem;
+}
+
+.armor-table th,
+.armor-table td {
+    padding: 0.45rem 0.65rem;
+    white-space: nowrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    border-right: 1px solid rgba(255, 255, 255, 0.03);
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ---------- Sticky Header ---------- */
+.armor-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: linear-gradient(180deg, #0f172a 0%, #131c2e 100%);
+    color: #94a3b8;
+    font-weight: 700;
+    font-size: 0.72rem;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    border-bottom: 2px solid rgba(234, 179, 8, 0.25);
+    user-select: none;
+}
+
+.armor-table thead th.sortable {
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.armor-table thead th.sortable:hover {
+    color: #facc15;
+}
+
+.armor-table thead th.sort-asc::after {
+    content: ' ▲';
+    font-size: 0.6rem;
+    color: #facc15;
+}
+
+.armor-table thead th.sort-desc::after {
+    content: ' ▼';
+    font-size: 0.6rem;
+    color: #facc15;
+}
+
+/* ---------- Tooltip header ---------- */
+.armor-table thead th[title] {
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+    cursor: help;
+}
+
+.armor-table thead th.has-tooltip {
+    text-decoration: underline dotted rgba(148, 163, 184, 0.5);
+    text-underline-offset: 3px;
+    cursor: help;
+}
+
+.armor-table thead th.has-tooltip:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    white-space: normal;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    z-index: 1000;
+    pointer-events: none;
+    line-height: 1.4;
+    animation: tooltipFadeIn 0.1s ease-out forwards;
+}
+
+/* ---------- Sticky First Column (Item Name) ---------- */
+.armor-table th:first-child,
+.armor-table td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    min-width: 140px;
+    max-width: 200px;
+}
+
+.armor-table thead th:first-child {
+    z-index: 30;
+}
+
+.armor-table td:first-child {
+    background: #0f172a;
+    font-weight: 600;
+    color: #e2e8f0;
+    border-right: 2px solid rgba(234, 179, 8, 0.18);
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.armor-name-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    white-space: normal;
+}
+
+/* ---------- Icon ---------- */
+.armor-icon {
+    width: 60px;
+    height: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+/* ---------- Body Rows ---------- */
+.armor-table tbody tr {
+    background: rgba(15, 23, 42, 0.85);
+}
+
+.armor-table tbody tr:hover {
+    background: rgba(30, 41, 59, 0.9);
+}
+
+.armor-table tbody tr td {
+    border-top: 1px solid rgba(234, 179, 8, 0.06);
+}
+
+/* ---------- Text Colors ---------- */
+.val-positive { color: #4ade80; }
+.val-negative { color: #f87171; }
+.val-zero { color: #94a3b8; }
+
+/* Level Colors */
+.pen-level {
+    display: inline-block;
+    padding: 0.15rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    min-width: 1.5rem;
+    text-align: center;
+}
+
+.pen-level-3 { background: rgba(168, 85, 247, 0.2); color: #e879f9; }
+.pen-level-4, .pen-level-5 { background: rgba(234, 179, 8, 0.2); color: #fde047; }
+.pen-level-6, .pen-level-7 { background: rgba(239, 68, 68, 0.22); color: #fca5a5; }
+
+.bone-tag {
+    display: inline-block;
+    background: rgba(100, 116, 139, 0.15);
+    color: #cbd5e1;
+    padding: 0.15rem 0.35rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    margin: 0.1rem;
+    white-space: nowrap;
+}

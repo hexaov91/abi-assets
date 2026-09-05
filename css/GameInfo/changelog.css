@@ -1,0 +1,336 @@
+/* ===== GameInfo / ChangeLog ===== */
+
+.changelog-page {
+    padding: 0.75rem 0.5rem 2rem;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    color: #e2e8f0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ---------- Header ---------- */
+.changelog-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem 1rem;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.6));
+    border-radius: 12px;
+    border: 1px solid rgba(59, 130, 246, 0.15);
+}
+
+.changelog-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0 0 0.35rem;
+}
+
+.changelog-subtitle {
+    font-size: 0.82rem;
+    color: #64748b;
+    margin: 0;
+}
+
+/* ---------- Loading ---------- */
+.changelog-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 4rem 1rem;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.changelog-spinner {
+    width: 24px;
+    height: 24px;
+    border: 3px solid rgba(148, 163, 184, 0.2);
+    border-top-color: #60a5fa;
+    border-radius: 50%;
+    animation: cl-spin 0.8s linear infinite;
+}
+
+@keyframes cl-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ---------- Empty State ---------- */
+.changelog-empty {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: #64748b;
+}
+
+.changelog-empty .empty-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.changelog-empty p {
+    font-size: 0.9rem;
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ---------- Version Section ---------- */
+.changelog-version-section {
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(15, 23, 42, 0.5);
+    overflow: hidden;
+    animation: cl-fadeIn 0.3s ease;
+}
+
+@keyframes cl-fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.changelog-version-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1.1rem;
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.8));
+    border-bottom: 1px solid rgba(59, 130, 246, 0.15);
+    cursor: pointer;
+    transition: background 0.2s ease;
+    user-select: none;
+}
+
+.changelog-version-header:hover {
+    background: linear-gradient(135deg, rgba(51, 65, 85, 0.9), rgba(30, 41, 59, 0.8));
+}
+
+.version-arrow {
+    font-size: 0.7rem;
+    color: #60a5fa;
+    transition: transform 0.25s ease;
+    flex-shrink: 0;
+}
+
+.version-arrow.collapsed {
+    transform: rotate(-90deg);
+}
+
+.version-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #e2e8f0;
+}
+
+.version-badge .ver-from {
+    color: #94a3b8;
+}
+
+.version-badge .ver-arrow {
+    color: #60a5fa;
+    font-size: 0.75rem;
+}
+
+.version-badge .ver-to {
+    color: #60a5fa;
+}
+
+.version-date {
+    font-size: 0.72rem;
+    color: #64748b;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.version-stat-count {
+    font-size: 0.68rem;
+    color: #94a3b8;
+    background: rgba(59, 130, 246, 0.12);
+    padding: 0.15rem 0.5rem;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+/* ---------- Version Body ---------- */
+.changelog-version-body {
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.changelog-version-body.collapsed {
+    display: none;
+}
+
+/* ---------- Category Section ---------- */
+.changelog-category {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.changelog-category-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 0.85rem;
+    background: rgba(30, 41, 59, 0.6);
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #cbd5e1;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.changelog-category-header .cat-icon {
+    font-size: 0.9rem;
+}
+
+.changelog-category-header .cat-count {
+    font-size: 0.68rem;
+    color: #64748b;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+/* ---------- Change Table ---------- */
+.changelog-table-wrap {
+    overflow-x: auto;
+}
+
+.changelog-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 0.76rem;
+}
+
+.changelog-table th,
+.changelog-table td {
+    padding: 0.4rem 0.65rem;
+    white-space: nowrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.changelog-table thead th {
+    background: rgba(15, 23, 42, 0.8);
+    color: #94a3b8;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.changelog-table tbody tr {
+    background: rgba(15, 23, 42, 0.5);
+    transition: background 0.15s ease;
+}
+
+.changelog-table tbody tr:hover {
+    background: rgba(30, 41, 59, 0.7);
+}
+
+/* Tag column */
+.changelog-table .col-tag {
+    color: #e2e8f0;
+    font-weight: 600;
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Field column */
+.changelog-table .col-field {
+    color: #93c5fd;
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 0.72rem;
+}
+
+/* Value columns */
+.changelog-table .col-old {
+    color: #f87171;
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 0.72rem;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.changelog-table .col-new {
+    color: #4ade80;
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 0.72rem;
+    font-weight: 600;
+}
+
+/* Value change direction indicators */
+.val-up::before {
+    content: '▲ ';
+    font-size: 0.55rem;
+    vertical-align: middle;
+}
+
+.val-down::before {
+    content: '▼ ';
+    font-size: 0.55rem;
+    vertical-align: middle;
+}
+
+/* ---------- Separator rows (between items) ---------- */
+.changelog-table tbody tr.item-first td {
+    border-top: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+/* ---------- Scrollbar ---------- */
+.changelog-table-wrap::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.changelog-table-wrap::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.5);
+}
+
+.changelog-table-wrap::-webkit-scrollbar-thumb {
+    background: rgba(100, 116, 139, 0.35);
+    border-radius: 3px;
+}
+
+.changelog-table-wrap::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.5);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .changelog-page {
+        padding: 0.5rem 0.25rem 1.5rem;
+    }
+
+    .changelog-header {
+        padding: 1rem 0.75rem;
+    }
+
+    .changelog-title {
+        font-size: 1.2rem;
+    }
+
+    .changelog-version-header {
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        padding: 0.65rem 0.75rem;
+    }
+
+    .version-date {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,94 @@
+.rank-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border: 2px solid #dc3545;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.rank-tab {
+    border: none;
+    border-right: 2px solid #dc3545;
+    background: #fff;
+    color: #dc3545;
+    padding: 16px 12px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.rank-tab:last-child {
+    border-right: none;
+}
+
+.rank-tab:hover {
+    background: #fff5f5;
+}
+
+.rank-tab.active {
+    background: #dc3545;
+    color: #fff;
+}
+
+.rank-content-box {
+    min-height: 500px;
+}
+
+.rank-pagination-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-height: 44px;
+}
+
+.rank-pagination-bar .page-btn {
+    border: 1px solid #198754;
+    background: #fff;
+    color: #198754;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    min-width: 42px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.rank-pagination-bar .page-btn:hover {
+    background: #e9f7ef;
+}
+
+.rank-pagination-bar .page-btn.active {
+    background: #198754;
+    color: #fff;
+    font-weight: 700;
+}
+
+.rank-pagination-bar .page-btn.disabled {
+    pointer-events: none;
+    opacity: 0.45;
+}
+
+@media (max-width: 768px) {
+    .rank-tabs {
+        grid-template-columns: 1fr;
+    }
+
+    .rank-tab {
+        border-right: none;
+        border-bottom: 2px solid #dc3545;
+        font-size: 1rem;
+        padding: 12px 10px;
+    }
+
+    .rank-tab:last-child {
+        border-bottom: none;
+    }
+
+    .rank-content-box {
+        min-height: 300px;
+    }
+}
