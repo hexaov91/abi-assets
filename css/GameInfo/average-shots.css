@@ -46,6 +46,19 @@
     align-items: start;
 }
 
+.filter-grid .filter-group {
+    display: block;
+    min-width: 0;
+}
+
+.filter-grid .filter-label {
+    margin-bottom: 0.45rem;
+}
+
+.filter-grid .filter-row-title {
+    margin-bottom: 0.45rem;
+}
+
 .filter-group-wide {
     grid-column: 1 / -1;
 }
@@ -208,6 +221,14 @@
     min-width: 0;
     overflow-wrap: anywhere;
     word-break: break-word;
+}
+
+.armor-header-top .item-icon {
+    width: 28px;
+    height: 36px;
+    max-width: 28px;
+    object-fit: contain;
+    margin: 0;
 }
 
 .armor-header-meta,
