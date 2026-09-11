@@ -1,0 +1,3438 @@
+{
+  "CurrentSeasonId": 25,
+  "Chapters": [
+    {
+      "Id": 251,
+      "SeasonId": 25,
+      "No": 1,
+      "Name_Trans": "25_season_chapter_Index0_chapter_name",
+      "Lines": [
+        {
+          "ShowOrder": 2502,
+          "RootTaskId": 1404,
+          "Tasks": [
+            {
+              "Id": 9441801,
+              "Source": 404,
+              "Title_Trans": "9441801_disp_title",
+              "Detail_Trans": "9441801_disp_detail",
+              "GiftExp": 5000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090101,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903090101,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903090101
+                }
+              ],
+              "PreTasks": [],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418011,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "94418011_desc"
+                }
+              ],
+              "VisualCol": 1
+            },
+            {
+              "Id": 9441802,
+              "Source": 404,
+              "Title_Trans": "9441802_disp_title",
+              "Detail_Trans": "9441802_disp_detail",
+              "GiftExp": 5000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441801
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418021,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 15,
+                  "Desc_Trans": "94418021_desc"
+                },
+                {
+                  "Id": 94418022,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418022_desc"
+                }
+              ],
+              "VisualCol": 2
+            },
+            {
+              "Id": 9441803,
+              "Source": 404,
+              "Title_Trans": "9441803_disp_title",
+              "Detail_Trans": "9441803_disp_detail",
+              "GiftExp": 5000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441802
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418031,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418031_desc"
+                },
+                {
+                  "Id": 94418032,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418032_desc"
+                },
+                {
+                  "Id": 94418033,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 15,
+                  "Desc_Trans": "94418033_desc"
+                }
+              ],
+              "VisualCol": 3
+            },
+            {
+              "Id": 9441804,
+              "Source": 404,
+              "Title_Trans": "9441804_disp_title",
+              "Detail_Trans": "9441804_disp_detail",
+              "GiftExp": 5000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441803
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418041,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418041_desc"
+                },
+                {
+                  "Id": 94418042,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418042_desc"
+                }
+              ],
+              "VisualCol": 4
+            },
+            {
+              "Id": 9441805,
+              "Source": 404,
+              "Title_Trans": "9441805_disp_title",
+              "Detail_Trans": "9441805_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441804
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418051,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418051_desc"
+                },
+                {
+                  "Id": 94418052,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418052_desc"
+                },
+                {
+                  "Id": 94418053,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418053_desc"
+                }
+              ],
+              "VisualCol": 5
+            },
+            {
+              "Id": 9441806,
+              "Source": 404,
+              "Title_Trans": "9441806_disp_title",
+              "Detail_Trans": "9441806_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441805
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418061,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418061_desc"
+                },
+                {
+                  "Id": 94418062,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 20,
+                  "Desc_Trans": "94418062_desc"
+                }
+              ],
+              "VisualCol": 6
+            },
+            {
+              "Id": 9441807,
+              "Source": 404,
+              "Title_Trans": "9441807_disp_title",
+              "Detail_Trans": "9441807_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441806
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418071,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418071_desc"
+                },
+                {
+                  "Id": 94418072,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 20,
+                  "Desc_Trans": "94418072_desc"
+                },
+                {
+                  "Id": 94418073,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "94418073_desc"
+                }
+              ],
+              "VisualCol": 7
+            },
+            {
+              "Id": 9441808,
+              "Source": 404,
+              "Title_Trans": "9441808_disp_title",
+              "Detail_Trans": "9441808_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441807
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418081,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "94418081_desc"
+                },
+                {
+                  "Id": 94418082,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "94418082_desc"
+                }
+              ],
+              "VisualCol": 8
+            },
+            {
+              "Id": 9441809,
+              "Source": 404,
+              "Title_Trans": "9441809_disp_title",
+              "Detail_Trans": "9441809_disp_detail",
+              "GiftExp": 7000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441808
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418091,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "94418091_desc"
+                },
+                {
+                  "Id": 94418092,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "94418092_desc"
+                }
+              ],
+              "VisualCol": 9
+            },
+            {
+              "Id": 9441810,
+              "Source": 404,
+              "Title_Trans": "9441810_disp_title",
+              "Detail_Trans": "9441810_disp_detail",
+              "GiftExp": 7000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441809
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418101,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 20,
+                  "Desc_Trans": "94418101_desc"
+                },
+                {
+                  "Id": 94418102,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1500000,
+                  "Desc_Trans": "94418102_desc"
+                }
+              ],
+              "VisualCol": 10
+            },
+            {
+              "Id": 9441811,
+              "Source": 404,
+              "Title_Trans": "9441811_disp_title",
+              "Detail_Trans": "9441811_disp_detail",
+              "GiftExp": 7000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903030003,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903030003,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903030003
+                }
+              ],
+              "PreTasks": [
+                9441810
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418111,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418111_desc"
+                },
+                {
+                  "Id": 94418112,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "94418112_desc"
+                }
+              ],
+              "VisualCol": 11
+            }
+          ]
+        },
+        {
+          "ShowOrder": 2503,
+          "RootTaskId": 0,
+          "Tasks": [
+            {
+              "Id": 9341801,
+              "Source": 303,
+              "Title_Trans": "9341801_disp_title",
+              "Detail_Trans": "9341801_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441804
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418011,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "93418011_desc"
+                },
+                {
+                  "Id": 93418012,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "93418012_desc"
+                }
+              ],
+              "VisualCol": 5
+            },
+            {
+              "Id": 9341802,
+              "Source": 303,
+              "Title_Trans": "9341802_disp_title",
+              "Detail_Trans": "9341802_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9341801
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418021,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "93418021_desc"
+                },
+                {
+                  "Id": 93418022,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 300000,
+                  "Desc_Trans": "93418022_desc"
+                }
+              ],
+              "VisualCol": 6
+            },
+            {
+              "Id": 9341803,
+              "Source": 303,
+              "Title_Trans": "9341803_disp_title",
+              "Detail_Trans": "9341803_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9341802
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418031,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 20,
+                  "Desc_Trans": "93418031_desc"
+                },
+                {
+                  "Id": 93418032,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 6,
+                  "Progress": 5,
+                  "Desc_Trans": "93418032_desc"
+                }
+              ],
+              "VisualCol": 7
+            },
+            {
+              "Id": 9341804,
+              "Source": 303,
+              "Title_Trans": "9341804_disp_title",
+              "Detail_Trans": "9341804_disp_detail",
+              "GiftExp": 7000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9341803
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418041,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "93418041_desc"
+                },
+                {
+                  "Id": 93418042,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "93418042_desc"
+                },
+                {
+                  "Id": 93418043,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "93418043_desc"
+                }
+              ],
+              "VisualCol": 8
+            },
+            {
+              "Id": 9341805,
+              "Source": 303,
+              "Title_Trans": "9341805_disp_title",
+              "Detail_Trans": "9341805_disp_detail",
+              "GiftExp": 7000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 902060102,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 902060102,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 301090008
+                }
+              ],
+              "PreTasks": [
+                9341804
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418051,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 200,
+                  "Desc_Trans": "93418051_desc"
+                },
+                {
+                  "Id": 93418052,
+                  "Property": 2,
+                  "PropertyName": "Optional",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 200,
+                  "Desc_Trans": "93418052_desc"
+                },
+                {
+                  "Id": 93418053,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 200,
+                  "Desc_Trans": "93418053_desc"
+                },
+                {
+                  "Id": 93418054,
+                  "Property": 2,
+                  "PropertyName": "Optional",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 200,
+                  "Desc_Trans": "93418054_desc"
+                }
+              ],
+              "VisualCol": 9
+            }
+          ]
+        },
+        {
+          "ShowOrder": 2504,
+          "RootTaskId": 0,
+          "Tasks": [
+            {
+              "Id": 9431801,
+              "Source": 403,
+              "Title_Trans": "9431801_disp_title",
+              "Detail_Trans": "9431801_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441804
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318011,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "94318011_desc"
+                },
+                {
+                  "Id": 94318012,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94318012_desc"
+                }
+              ],
+              "VisualCol": 5
+            },
+            {
+              "Id": 9431802,
+              "Source": 403,
+              "Title_Trans": "9431802_disp_title",
+              "Detail_Trans": "9431802_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9431801
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318021,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94318021_desc"
+                },
+                {
+                  "Id": 94318022,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 200,
+                  "Desc_Trans": "94318022_desc"
+                },
+                {
+                  "Id": 94318023,
+                  "Property": 2,
+                  "PropertyName": "Optional",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 200,
+                  "Desc_Trans": "94318023_desc"
+                }
+              ],
+              "VisualCol": 6
+            },
+            {
+              "Id": 9431803,
+              "Source": 403,
+              "Title_Trans": "9431803_disp_title",
+              "Detail_Trans": "9431803_disp_detail",
+              "GiftExp": 6000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9431802
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318031,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 20,
+                  "Desc_Trans": "94318031_desc"
+                },
+                {
+                  "Id": 94318032,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 4,
+                  "Desc_Trans": "94318032_desc"
+                }
+              ],
+              "VisualCol": 7
+            },
+            {
+              "Id": 9431804,
+              "Source": 403,
+              "Title_Trans": "9431804_disp_title",
+              "Detail_Trans": "9431804_disp_detail",
+              "GiftExp": 7000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9431803
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318041,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94318041_desc"
+                },
+                {
+                  "Id": 94318042,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94318042_desc"
+                },
+                {
+                  "Id": 94318043,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94318043_desc"
+                },
+                {
+                  "Id": 94318044,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94318044_desc"
+                }
+              ],
+              "VisualCol": 8
+            },
+            {
+              "Id": 9431805,
+              "Source": 403,
+              "Title_Trans": "9431805_disp_title",
+              "Detail_Trans": "9431805_disp_detail",
+              "GiftExp": 7000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090040,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903090040,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903090040
+                }
+              ],
+              "PreTasks": [
+                9431804
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318051,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "94318051_desc"
+                },
+                {
+                  "Id": 94318052,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94318052_desc"
+                }
+              ],
+              "VisualCol": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 252,
+      "SeasonId": 25,
+      "No": 2,
+      "Name_Trans": "25_season_chapter_Index1_chapter_name",
+      "Lines": [
+        {
+          "ShowOrder": 2502,
+          "RootTaskId": 1404,
+          "Tasks": [
+            {
+              "Id": 9441812,
+              "Source": 404,
+              "Title_Trans": "9441812_disp_title",
+              "Detail_Trans": "9441812_disp_detail",
+              "GiftExp": 8000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090102,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903090102,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903090102
+                }
+              ],
+              "PreTasks": [
+                9441811,
+                9341805,
+                9431805
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418121,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 25,
+                  "Desc_Trans": "94418121_desc"
+                },
+                {
+                  "Id": 94418122,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418122_desc"
+                }
+              ],
+              "VisualCol": 13
+            },
+            {
+              "Id": 9441813,
+              "Source": 404,
+              "Title_Trans": "9441813_disp_title",
+              "Detail_Trans": "9441813_disp_detail",
+              "GiftExp": 8000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441812
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418131,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418131_desc"
+                },
+                {
+                  "Id": 94418132,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 4,
+                  "Desc_Trans": "94418132_desc"
+                }
+              ],
+              "VisualCol": 14
+            },
+            {
+              "Id": 9441814,
+              "Source": 404,
+              "Title_Trans": "9441814_disp_title",
+              "Detail_Trans": "9441814_disp_detail",
+              "GiftExp": 8000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441813
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418141,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94418141_desc"
+                },
+                {
+                  "Id": 94418142,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "94418142_desc"
+                }
+              ],
+              "VisualCol": 15
+            },
+            {
+              "Id": 9441815,
+              "Source": 404,
+              "Title_Trans": "9441815_disp_title",
+              "Detail_Trans": "9441815_disp_detail",
+              "GiftExp": 8000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441814
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418151,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94418151_desc"
+                },
+                {
+                  "Id": 94418152,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418152_desc"
+                }
+              ],
+              "VisualCol": 16
+            },
+            {
+              "Id": 9441816,
+              "Source": 404,
+              "Title_Trans": "9441816_disp_title",
+              "Detail_Trans": "9441816_disp_detail",
+              "GiftExp": 8000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441815
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418161,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "94418161_desc"
+                },
+                {
+                  "Id": 94418162,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 30,
+                  "Desc_Trans": "94418162_desc"
+                }
+              ],
+              "VisualCol": 17
+            },
+            {
+              "Id": 9441817,
+              "Source": 404,
+              "Title_Trans": "9441817_disp_title",
+              "Detail_Trans": "9441817_disp_detail",
+              "GiftExp": 10000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441816
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418171,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418171_desc"
+                },
+                {
+                  "Id": 94418172,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94418172_desc"
+                }
+              ],
+              "VisualCol": 18
+            },
+            {
+              "Id": 9441818,
+              "Source": 404,
+              "Title_Trans": "9441818_disp_title",
+              "Detail_Trans": "9441818_disp_detail",
+              "GiftExp": 10000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441817
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418181,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418181_desc"
+                },
+                {
+                  "Id": 94418182,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418182_desc"
+                },
+                {
+                  "Id": 94418183,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "94418183_desc"
+                }
+              ],
+              "VisualCol": 19
+            },
+            {
+              "Id": 9441819,
+              "Source": 404,
+              "Title_Trans": "9441819_disp_title",
+              "Detail_Trans": "9441819_disp_detail",
+              "GiftExp": 10000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441818
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418191,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "94418191_desc"
+                },
+                {
+                  "Id": 94418192,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "94418192_desc"
+                }
+              ],
+              "VisualCol": 20
+            },
+            {
+              "Id": 9441820,
+              "Source": 404,
+              "Title_Trans": "9441820_disp_title",
+              "Detail_Trans": "9441820_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441819
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418201,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94418201_desc"
+                },
+                {
+                  "Id": 94418202,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 300,
+                  "Desc_Trans": "94418202_desc"
+                },
+                {
+                  "Id": 94418203,
+                  "Property": 2,
+                  "PropertyName": "Optional",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 300,
+                  "Desc_Trans": "94418203_desc"
+                }
+              ],
+              "VisualCol": 21
+            },
+            {
+              "Id": 9441821,
+              "Source": 404,
+              "Title_Trans": "9441821_disp_title",
+              "Detail_Trans": "9441821_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903030003,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903030003,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903030003
+                }
+              ],
+              "PreTasks": [
+                9441820
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418211,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "94418211_desc"
+                },
+                {
+                  "Id": 94418212,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94418212_desc"
+                }
+              ],
+              "VisualCol": 22
+            }
+          ]
+        },
+        {
+          "ShowOrder": 2503,
+          "RootTaskId": 0,
+          "Tasks": [
+            {
+              "Id": 9341806,
+              "Source": 303,
+              "Title_Trans": "9341806_disp_title",
+              "Detail_Trans": "9341806_disp_detail",
+              "GiftExp": 10000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441816
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418061,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "93418061_desc"
+                },
+                {
+                  "Id": 93418062,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "93418062_desc"
+                }
+              ],
+              "VisualCol": 18
+            },
+            {
+              "Id": 9341807,
+              "Source": 303,
+              "Title_Trans": "9341807_disp_title",
+              "Detail_Trans": "9341807_disp_detail",
+              "GiftExp": 10000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9341806
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418071,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "93418071_desc"
+                },
+                {
+                  "Id": 93418072,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "93418072_desc"
+                }
+              ],
+              "VisualCol": 19
+            },
+            {
+              "Id": 9341808,
+              "Source": 303,
+              "Title_Trans": "9341808_disp_title",
+              "Detail_Trans": "9341808_disp_detail",
+              "GiftExp": 10000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9341807
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418081,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 20,
+                  "Progress": 750000,
+                  "Desc_Trans": "93418081_desc"
+                },
+                {
+                  "Id": 93418082,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "93418082_desc"
+                }
+              ],
+              "VisualCol": 20
+            },
+            {
+              "Id": 9341809,
+              "Source": 303,
+              "Title_Trans": "9341809_disp_title",
+              "Detail_Trans": "9341809_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9341808
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418091,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "93418091_desc"
+                },
+                {
+                  "Id": 93418092,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "93418092_desc"
+                }
+              ],
+              "VisualCol": 21
+            },
+            {
+              "Id": 9341810,
+              "Source": 303,
+              "Title_Trans": "9341810_disp_title",
+              "Detail_Trans": "9341810_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090040,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903090040,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903090040
+                }
+              ],
+              "PreTasks": [
+                9341809
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 93418101,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "93418101_desc"
+                },
+                {
+                  "Id": 93418102,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "93418102_desc"
+                },
+                {
+                  "Id": 93418103,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "93418103_desc"
+                }
+              ],
+              "VisualCol": 22
+            }
+          ]
+        },
+        {
+          "ShowOrder": 2504,
+          "RootTaskId": 0,
+          "Tasks": [
+            {
+              "Id": 9431806,
+              "Source": 403,
+              "Title_Trans": "9431806_disp_title",
+              "Detail_Trans": "9431806_disp_detail",
+              "GiftExp": 10000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441817
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318061,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 20,
+                  "Desc_Trans": "94318061_desc"
+                },
+                {
+                  "Id": 94318062,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2000000,
+                  "Desc_Trans": "94318062_desc"
+                }
+              ],
+              "VisualCol": 19
+            },
+            {
+              "Id": 9431807,
+              "Source": 403,
+              "Title_Trans": "9431807_disp_title",
+              "Detail_Trans": "9431807_disp_detail",
+              "GiftExp": 10000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9431806
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318071,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 8,
+                  "Desc_Trans": "94318071_desc"
+                },
+                {
+                  "Id": 94318072,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 6,
+                  "Progress": 5,
+                  "Desc_Trans": "94318072_desc"
+                }
+              ],
+              "VisualCol": 20
+            },
+            {
+              "Id": 9431808,
+              "Source": 403,
+              "Title_Trans": "9431808_disp_title",
+              "Detail_Trans": "9431808_disp_detail",
+              "GiftExp": 10000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9431807
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318081,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "94318081_desc"
+                },
+                {
+                  "Id": 94318082,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 200,
+                  "Desc_Trans": "94318082_desc"
+                },
+                {
+                  "Id": 94318083,
+                  "Property": 2,
+                  "PropertyName": "Optional",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 200,
+                  "Desc_Trans": "94318083_desc"
+                }
+              ],
+              "VisualCol": 21
+            },
+            {
+              "Id": 9431809,
+              "Source": 403,
+              "Title_Trans": "9431809_disp_title",
+              "Detail_Trans": "9431809_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9431808
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318091,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94318091_desc"
+                },
+                {
+                  "Id": 94318092,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94318092_desc"
+                },
+                {
+                  "Id": 94318093,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94318093_desc"
+                },
+                {
+                  "Id": 94318094,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94318094_desc"
+                }
+              ],
+              "VisualCol": 22
+            },
+            {
+              "Id": 9431810,
+              "Source": 403,
+              "Title_Trans": "9431810_disp_title",
+              "Detail_Trans": "9431810_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 902060102,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 902060102,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 301090008
+                }
+              ],
+              "PreTasks": [
+                9431809
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94318101,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 6,
+                  "Desc_Trans": "94318101_desc"
+                },
+                {
+                  "Id": 94318102,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "94318102_desc"
+                },
+                {
+                  "Id": 94318103,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "94318103_desc"
+                }
+              ],
+              "VisualCol": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 253,
+      "SeasonId": 25,
+      "No": 3,
+      "Name_Trans": "25_season_chapter_Index2_chapter_name",
+      "Lines": [
+        {
+          "ShowOrder": 2502,
+          "RootTaskId": 1404,
+          "Tasks": [
+            {
+              "Id": 9441822,
+              "Source": 404,
+              "Title_Trans": "9441822_disp_title",
+              "Detail_Trans": "9441822_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090103,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903090103,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903090103
+                }
+              ],
+              "PreTasks": [
+                9441821,
+                9341810,
+                9431810
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418221,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418221_desc"
+                },
+                {
+                  "Id": 94418222,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418222_desc"
+                }
+              ],
+              "VisualCol": 25
+            },
+            {
+              "Id": 9441823,
+              "Source": 404,
+              "Title_Trans": "9441823_disp_title",
+              "Detail_Trans": "9441823_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441822
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418231,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418231_desc"
+                },
+                {
+                  "Id": 94418232,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418232_desc"
+                }
+              ],
+              "VisualCol": 26
+            },
+            {
+              "Id": 9441824,
+              "Source": 404,
+              "Title_Trans": "9441824_disp_title",
+              "Detail_Trans": "9441824_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441823
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418241,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418241_desc"
+                },
+                {
+                  "Id": 94418242,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "94418242_desc"
+                },
+                {
+                  "Id": 94418243,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418243_desc"
+                }
+              ],
+              "VisualCol": 27
+            },
+            {
+              "Id": 9441825,
+              "Source": 404,
+              "Title_Trans": "9441825_disp_title",
+              "Detail_Trans": "9441825_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903030003,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903030003,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903030003
+                }
+              ],
+              "PreTasks": [
+                9441824
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 94418251,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94418251_desc"
+                },
+                {
+                  "Id": 94418252,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "94418252_desc"
+                },
+                {
+                  "Id": 94418253,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "94418253_desc"
+                }
+              ],
+              "VisualCol": 28
+            }
+          ]
+        },
+        {
+          "ShowOrder": 2503,
+          "RootTaskId": 0,
+          "Tasks": [
+            {
+              "Id": 9041801,
+              "Source": 4,
+              "Title_Trans": "9041801_disp_title",
+              "Detail_Trans": "9041801_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441822
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418011,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "90418011_desc"
+                },
+                {
+                  "Id": 90418012,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 300,
+                  "Desc_Trans": "90418012_desc"
+                },
+                {
+                  "Id": 90418013,
+                  "Property": 2,
+                  "PropertyName": "Optional",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 300,
+                  "Desc_Trans": "90418013_desc"
+                }
+              ],
+              "VisualCol": 26
+            },
+            {
+              "Id": 9041802,
+              "Source": 4,
+              "Title_Trans": "9041802_disp_title",
+              "Detail_Trans": "9041802_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9041801
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418021,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 300,
+                  "Desc_Trans": "90418021_desc"
+                },
+                {
+                  "Id": 90418022,
+                  "Property": 2,
+                  "PropertyName": "Optional",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 300,
+                  "Desc_Trans": "90418022_desc"
+                },
+                {
+                  "Id": 90418023,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 4,
+                  "Desc_Trans": "90418023_desc"
+                }
+              ],
+              "VisualCol": 27
+            },
+            {
+              "Id": 9041803,
+              "Source": 4,
+              "Title_Trans": "9041803_disp_title",
+              "Detail_Trans": "9041803_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9041802
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418031,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3000000,
+                  "Desc_Trans": "90418031_desc"
+                },
+                {
+                  "Id": 90418032,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 8,
+                  "Desc_Trans": "90418032_desc"
+                }
+              ],
+              "VisualCol": 28
+            },
+            {
+              "Id": 9041804,
+              "Source": 4,
+              "Title_Trans": "9041804_disp_title",
+              "Detail_Trans": "9041804_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9041803
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418041,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "90418041_desc"
+                },
+                {
+                  "Id": 90418042,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "90418042_desc"
+                }
+              ],
+              "VisualCol": 29
+            },
+            {
+              "Id": 9041805,
+              "Source": 4,
+              "Title_Trans": "9041805_disp_title",
+              "Detail_Trans": "9041805_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9041804
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418051,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "90418051_desc"
+                },
+                {
+                  "Id": 90418052,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "90418052_desc"
+                }
+              ],
+              "VisualCol": 30
+            },
+            {
+              "Id": 9041806,
+              "Source": 4,
+              "Title_Trans": "9041806_disp_title",
+              "Detail_Trans": "9041806_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 902060101,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 902060101,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 301090008
+                }
+              ],
+              "PreTasks": [
+                9041805
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418061,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "90418061_desc"
+                },
+                {
+                  "Id": 90418062,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "90418062_desc"
+                },
+                {
+                  "Id": 90418063,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "90418063_desc"
+                }
+              ],
+              "VisualCol": 31
+            }
+          ]
+        },
+        {
+          "ShowOrder": 2504,
+          "RootTaskId": 0,
+          "Tasks": [
+            {
+              "Id": 9251801,
+              "Source": 295,
+              "Title_Trans": "9251801_disp_title",
+              "Detail_Trans": "9251801_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9041804
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 92518011,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "92518011_desc"
+                },
+                {
+                  "Id": 92518012,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "92518012_desc"
+                }
+              ],
+              "VisualCol": 30
+            },
+            {
+              "Id": 9251802,
+              "Source": 295,
+              "Title_Trans": "9251802_disp_title",
+              "Detail_Trans": "9251802_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9251801
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 92518021,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 15,
+                  "Desc_Trans": "92518021_desc"
+                },
+                {
+                  "Id": 92518022,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 120,
+                  "Desc_Trans": "92518022_desc"
+                }
+              ],
+              "VisualCol": 31
+            },
+            {
+              "Id": 9251803,
+              "Source": 295,
+              "Title_Trans": "9251803_disp_title",
+              "Detail_Trans": "9251803_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9251802
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 92518031,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "92518031_desc"
+                },
+                {
+                  "Id": 92518032,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "92518032_desc"
+                }
+              ],
+              "VisualCol": 32
+            },
+            {
+              "Id": 9251804,
+              "Source": 295,
+              "Title_Trans": "9251804_disp_title",
+              "Detail_Trans": "9251804_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9251803
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 92518041,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "92518041_desc"
+                },
+                {
+                  "Id": 92518042,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "92518042_desc"
+                }
+              ],
+              "VisualCol": 33
+            },
+            {
+              "Id": 9251805,
+              "Source": 295,
+              "Title_Trans": "9251805_disp_title",
+              "Detail_Trans": "9251805_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903030003,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903030003,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903030003
+                }
+              ],
+              "PreTasks": [
+                9251804
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 92518051,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 15,
+                  "Desc_Trans": "92518051_desc"
+                },
+                {
+                  "Id": 92518052,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "92518052_desc"
+                }
+              ],
+              "VisualCol": 34
+            }
+          ]
+        },
+        {
+          "ShowOrder": 2505,
+          "RootTaskId": 0,
+          "Tasks": [
+            {
+              "Id": 9011801,
+              "Source": 1,
+              "Title_Trans": "9011801_disp_title",
+              "Detail_Trans": "9011801_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9441821,
+                9341810,
+                9431810
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90118011,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 20,
+                  "Desc_Trans": "90118011_desc"
+                },
+                {
+                  "Id": 90118012,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "90118012_desc"
+                }
+              ],
+              "VisualCol": 25
+            },
+            {
+              "Id": 9011802,
+              "Source": 1,
+              "Title_Trans": "9011802_disp_title",
+              "Detail_Trans": "9011802_disp_detail",
+              "GiftExp": 12000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9011801
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90118021,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 40,
+                  "Desc_Trans": "90118021_desc"
+                },
+                {
+                  "Id": 90118022,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 40,
+                  "Desc_Trans": "90118022_desc"
+                },
+                {
+                  "Id": 90118023,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 6,
+                  "Progress": 1,
+                  "Desc_Trans": "90118023_desc"
+                }
+              ],
+              "VisualCol": 26
+            },
+            {
+              "Id": 9011803,
+              "Source": 1,
+              "Title_Trans": "9011803_disp_title",
+              "Detail_Trans": "9011803_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [],
+              "PreTasks": [
+                9011802
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90118031,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 6,
+                  "Progress": 5,
+                  "Desc_Trans": "90118031_desc"
+                },
+                {
+                  "Id": 90118032,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "90118032_desc"
+                }
+              ],
+              "VisualCol": 27
+            },
+            {
+              "Id": 9011804,
+              "Source": 1,
+              "Title_Trans": "9011804_disp_title",
+              "Detail_Trans": "9011804_disp_detail",
+              "GiftExp": 15000,
+              "GiftRuble": 20000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090040,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 903090040,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903090040
+                }
+              ],
+              "PreTasks": [
+                9011803
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90118041,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "90118041_desc"
+                },
+                {
+                  "Id": 90118042,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "90118042_desc"
+                }
+              ],
+              "VisualCol": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 254,
+      "SeasonId": 25,
+      "No": 4,
+      "Name_Trans": "25_season_chapter_Index3_chapter_name",
+      "Lines": [
+        {
+          "ShowOrder": 2502,
+          "RootTaskId": 1404,
+          "Tasks": [
+            {
+              "Id": 9031801,
+              "Source": 3,
+              "Title_Trans": "9031801_disp_title",
+              "Detail_Trans": "9031801_disp_detail",
+              "GiftExp": 20000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9441825,
+                9011804,
+                9251805,
+                9041806
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90318011,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "90318011_desc"
+                }
+              ],
+              "VisualCol": 36
+            },
+            {
+              "Id": 9031802,
+              "Source": 3,
+              "Title_Trans": "9031802_disp_title",
+              "Detail_Trans": "9031802_disp_detail",
+              "GiftExp": 20000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9031801
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90318021,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 1,
+                  "Desc_Trans": "90318021_desc"
+                }
+              ],
+              "VisualCol": 37
+            },
+            {
+              "Id": 9031803,
+              "Source": 3,
+              "Title_Trans": "9031803_disp_title",
+              "Detail_Trans": "9031803_disp_detail",
+              "GiftExp": 20000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9031802
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90318031,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 10,
+                  "Desc_Trans": "90318031_desc"
+                }
+              ],
+              "VisualCol": 38
+            },
+            {
+              "Id": 9031804,
+              "Source": 3,
+              "Title_Trans": "9031804_disp_title",
+              "Detail_Trans": "9031804_disp_detail",
+              "GiftExp": 30000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090040,
+                  "Count": 5,
+                  "Raw": {
+                    "item_id": 903090040,
+                    "num": 5,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903090040
+                }
+              ],
+              "PreTasks": [
+                9031803
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90318041,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "90318041_desc"
+                }
+              ],
+              "VisualCol": 39
+            },
+            {
+              "Id": 9031805,
+              "Source": 3,
+              "Title_Trans": "9031805_disp_title",
+              "Detail_Trans": "9031805_disp_detail",
+              "GiftExp": 30000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 901070161,
+                  "Count": 99999,
+                  "Raw": {
+                    "item_id": 901070161,
+                    "num": 99999,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 901070161
+                }
+              ],
+              "PreTasks": [
+                9031804
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90318051,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 6,
+                  "Progress": 10000000,
+                  "Desc_Trans": "90318051_desc"
+                }
+              ],
+              "VisualCol": 40
+            }
+          ]
+        },
+        {
+          "ShowOrder": 2503,
+          "RootTaskId": 0,
+          "Tasks": [
+            {
+              "Id": 9041807,
+              "Source": 4,
+              "Title_Trans": "9041807_disp_title",
+              "Detail_Trans": "9041807_disp_detail",
+              "GiftExp": 20000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9441825,
+                9011804,
+                9251805,
+                9041806
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418071,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "90418071_desc"
+                },
+                {
+                  "Id": 90418072,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "90418072_desc"
+                }
+              ],
+              "VisualCol": 36
+            },
+            {
+              "Id": 9041808,
+              "Source": 4,
+              "Title_Trans": "9041808_disp_title",
+              "Detail_Trans": "9041808_disp_detail",
+              "GiftExp": 20000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9041807
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418081,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "90418081_desc"
+                },
+                {
+                  "Id": 90418082,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "90418082_desc"
+                }
+              ],
+              "VisualCol": 37
+            },
+            {
+              "Id": 9041809,
+              "Source": 4,
+              "Title_Trans": "9041809_disp_title",
+              "Detail_Trans": "9041809_disp_detail",
+              "GiftExp": 20000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9041808
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418091,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 2,
+                  "Desc_Trans": "90418091_desc"
+                }
+              ],
+              "VisualCol": 38
+            },
+            {
+              "Id": 9041810,
+              "Source": 4,
+              "Title_Trans": "9041810_disp_title",
+              "Detail_Trans": "9041810_disp_detail",
+              "GiftExp": 30000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9041809
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418101,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 4,
+                  "Desc_Trans": "90418101_desc"
+                }
+              ],
+              "VisualCol": 39
+            },
+            {
+              "Id": 9041811,
+              "Source": 4,
+              "Title_Trans": "9041811_disp_title",
+              "Detail_Trans": "9041811_disp_detail",
+              "GiftExp": 30000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 991215004,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 991215004,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991215004
+                }
+              ],
+              "PreTasks": [
+                9041810
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90418111,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 50,
+                  "Desc_Trans": "90418111_desc"
+                }
+              ],
+              "VisualCol": 40
+            }
+          ]
+        },
+        {
+          "ShowOrder": 2504,
+          "RootTaskId": 0,
+          "Tasks": [
+            {
+              "Id": 9011805,
+              "Source": 1,
+              "Title_Trans": "9011805_disp_title",
+              "Detail_Trans": "9011805_disp_detail",
+              "GiftExp": 20000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9441825,
+                9011804,
+                9251805,
+                9041806
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90118051,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "90118051_desc"
+                }
+              ],
+              "VisualCol": 36
+            },
+            {
+              "Id": 9011806,
+              "Source": 1,
+              "Title_Trans": "9011806_disp_title",
+              "Detail_Trans": "9011806_disp_detail",
+              "GiftExp": 20000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9011805
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90118061,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "90118061_desc"
+                }
+              ],
+              "VisualCol": 37
+            },
+            {
+              "Id": 9011807,
+              "Source": 1,
+              "Title_Trans": "9011807_disp_title",
+              "Detail_Trans": "9011807_disp_detail",
+              "GiftExp": 20000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090050,
+                  "Count": 3,
+                  "Raw": {
+                    "item_id": 903090050,
+                    "num": 3,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991080153
+                }
+              ],
+              "PreTasks": [
+                9011806
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90118071,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 3,
+                  "Desc_Trans": "90118071_desc"
+                }
+              ],
+              "VisualCol": 38
+            },
+            {
+              "Id": 9011808,
+              "Source": 1,
+              "Title_Trans": "9011808_disp_title",
+              "Detail_Trans": "9011808_disp_detail",
+              "GiftExp": 30000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 903090040,
+                  "Count": 4,
+                  "Raw": {
+                    "item_id": 903090040,
+                    "num": 4,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 903090040
+                }
+              ],
+              "PreTasks": [
+                9011807
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90118081,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "90118081_desc"
+                }
+              ],
+              "VisualCol": 39
+            },
+            {
+              "Id": 9011809,
+              "Source": 1,
+              "Title_Trans": "9011809_disp_title",
+              "Detail_Trans": "9011809_disp_detail",
+              "GiftExp": 30000,
+              "GiftRuble": 40000,
+              "Rewards": [
+                {
+                  "Type": 0,
+                  "Id": 991216004,
+                  "Count": 1,
+                  "Raw": {
+                    "item_id": 991216004,
+                    "num": 1,
+                    "is_black": 0,
+                    "is_faction": 0
+                  },
+                  "IconId": 991216004
+                }
+              ],
+              "PreTasks": [
+                9011808
+              ],
+              "PreLogic": 0,
+              "NeedFinishNum": 0,
+              "CompleteInOneBattle": false,
+              "Targets": [
+                {
+                  "Id": 90118091,
+                  "Property": 1,
+                  "PropertyName": "Compulsory",
+                  "GroupId": 0,
+                  "TargetType": 1000,
+                  "Progress": 5,
+                  "Desc_Trans": "90118091_desc"
+                }
+              ],
+              "VisualCol": 40
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Milestones": [
+    {
+      "Id": 125,
+      "TaskCount": 21,
+      "Name_Trans": "125_rewardgroup_name",
+      "Rewards": [
+        {
+          "Type": 0,
+          "Id": 902050160,
+          "Count": 1,
+          "Raw": {
+            "item_id": 902050160,
+            "num": 1,
+            "is_black": 0,
+            "is_faction": 0
+          },
+          "IconId": 331090004
+        }
+      ]
+    },
+    {
+      "Id": 126,
+      "TaskCount": 41,
+      "Name_Trans": "126_rewardgroup_name",
+      "Rewards": [
+        {
+          "Type": 0,
+          "Id": 793050591,
+          "Count": 99999,
+          "Raw": {
+            "item_id": 793050591,
+            "num": 99999,
+            "is_black": 0,
+            "is_faction": 0
+          },
+          "IconId": 793050591
+        }
+      ]
+    },
+    {
+      "Id": 127,
+      "TaskCount": 60,
+      "Name_Trans": "127_rewardgroup_name",
+      "Rewards": [
+        {
+          "Type": 0,
+          "Id": 301090008,
+          "Count": 8760,
+          "Raw": {
+            "item_id": 301090008,
+            "num": 8760,
+            "is_black": 0,
+            "is_faction": 0
+          },
+          "IconId": 301090008
+        }
+      ]
+    },
+    {
+      "Id": 128,
+      "TaskCount": 75,
+      "Name_Trans": "128_rewardgroup_name",
+      "Rewards": [
+        {
+          "Type": 0,
+          "Id": 795130065,
+          "Count": 99999,
+          "Raw": {
+            "item_id": 795130065,
+            "num": 99999,
+            "is_black": 0,
+            "is_faction": 0
+          },
+          "IconId": 795130065
+        }
+      ]
+    }
+  ],
+  "Meta": {
+    "Version": "0.9.0.168.0 (pre)",
+    "IsPreview": true,
+    "DataDate": "20260905",
+    "Sources": [
+      {
+        "File": "UATaskConfTable.json",
+        "Sha256": "9b2895f7112044cc213f0884a0abdcc6283d6f574b59e319fbff7c06c903c9dd"
+      },
+      {
+        "File": "UATaskTargetConfTable.json",
+        "Sha256": "74dc4312899dacad73b9abfae89a181383eec5bf99e1c517240b0de6ddca9a3a"
+      },
+      {
+        "File": "UASeasonTaskTreeConfTable.json",
+        "Sha256": "d7a156d8138b31515e3d66a29813fdea52e6a4c57bfcca1c960430aa3385d31b"
+      },
+      {
+        "File": "UARankedSeasonTable.json",
+        "Sha256": "cf2b3ae44131f878497be9c49102c094a03e8095321b71d86e3304c0d2669240"
+      },
+      {
+        "File": "UARoadmapAwardsConfTable.json",
+        "Sha256": "508053d5f3259af676f574161189035e045b2bdb7385faada319de434df2ccac"
+      }
+    ],
+    "VersionEvidence": {
+      "File": "D:\\Arena Breakout Infinite(6000023)\\sail_files\\sail_version.dat",
+      "Version": "0.9.0.168.0",
+      "Sha256": "68AE9742F214D10605B4C33B5151D4E959F90F9761C69A9EAC64718E55DC43D5"
+    },
+    "DisplaySeason": 7,
+    "SeasonName_Trans": "25_Desc",
+    "TaskCount": 75,
+    "UnknownChapterTaskIds": [],
+    "UnmappedSeasonTaskIds": [
+      9011701,
+      9011702,
+      9011703,
+      9011704,
+      9011705,
+      9011706,
+      9011707,
+      9011708,
+      9011709,
+      9451801,
+      9451802,
+      9451803,
+      9451804,
+      9451805,
+      9451806,
+      9451807,
+      9451808,
+      9451809,
+      9451810,
+      9451811,
+      9451812,
+      9451813,
+      9451814,
+      9451815,
+      9461801,
+      9461802,
+      9461803,
+      9461804,
+      9461805,
+      9461806,
+      9461807,
+      9461808,
+      9461809,
+      9461810,
+      9471801,
+      9471802,
+      9471803,
+      9471804,
+      9471805,
+      9471806,
+      9471807,
+      9471808,
+      9471809,
+      9471810,
+      9471811,
+      9471812,
+      9471813,
+      9471814,
+      9471815
+    ],
+    "IgnoredTreeNodeIds": [
+      1001,
+      1003,
+      1004,
+      1295,
+      1303,
+      1403,
+      1404
+    ]
+  }
+}
