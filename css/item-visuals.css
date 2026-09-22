@@ -1,0 +1,9 @@
+[data-rarity] { --item-rarity: #f2f3f5; }
+[data-rarity="2"] { --item-rarity: #6fd28a; }
+[data-rarity="3"] { --item-rarity: #77b8ff; }
+[data-rarity="4"] { --item-rarity: #cd9cff; }
+[data-rarity="5"] { --item-rarity: #f5d569; }
+[data-rarity="6"] { --item-rarity: #ff818b; }
+.item-rarity-line { display: block; height: 4px; min-height: 4px; background: var(--item-rarity); border-radius: 1px; }
+.item-slot-grid { display: inline-grid; grid-template-columns: repeat(var(--slot-columns), 7px); grid-template-rows: repeat(var(--slot-rows), 7px); gap: 2px; flex: none; vertical-align: middle; }
+.item-slot-grid i { display: block; background: #fff; width: 7px; height: 7px; }

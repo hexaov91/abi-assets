@@ -1,0 +1,370 @@
+/* =========================================================
+   Player Pages (Search / Status / Detail)
+   ========================================================= */
+
+.player-page,
+.player-detail-page,
+.player-search-page {
+    color: #dbe3ee;
+    background: transparent;
+}
+
+    /* ---------- Containers ---------- */
+    .player-search-page .search-panel,
+    .player-page .search-panel {
+        background: linear-gradient(180deg, rgba(39, 52, 73, 0.95), rgba(32, 45, 66, 0.95));
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        padding: 1.25rem;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+    }
+
+    .player-page .card,
+    .player-detail-page .card,
+    .player-search-page .card {
+        background: linear-gradient(180deg, rgba(40, 54, 77, 0.96), rgba(34, 47, 69, 0.98));
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+    }
+
+    .player-page .card-header,
+    .player-detail-page .card-header,
+    .player-search-page .card-header {
+        background: rgba(255, 255, 255, 0.03);
+        color: #f3f7fc;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        font-weight: 700;
+    }
+
+    .player-page .card-body,
+    .player-detail-page .card-body,
+    .player-search-page .card-body {
+        color: #dbe3ee;
+    }
+
+    /* ---------- Table / Badge / List ---------- */
+    .player-page .table,
+    .player-detail-page .table,
+    .player-search-page .table {
+        --bs-table-bg: transparent;
+        --bs-table-color: #dbe3ee;
+        --bs-table-border-color: rgba(255, 255, 255, 0.08);
+        margin-bottom: 0;
+    }
+
+        .player-page .table thead th,
+        .player-detail-page .table thead th,
+        .player-search-page .table thead th {
+            color: #f3f7fc;
+            font-weight: 700;
+            background: rgba(255, 255, 255, 0.03);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .player-page .table tbody tr:hover > *,
+        .player-detail-page .table tbody tr:hover > *,
+        .player-search-page .table tbody tr:hover > * {
+            background: rgba(255, 255, 255, 0.04);
+            color: #fff;
+        }
+
+    .player-page .badge,
+    .player-detail-page .badge,
+    .player-search-page .badge {
+        border-radius: 999px;
+        padding: 0.45rem 0.75rem;
+        font-weight: 700;
+    }
+
+    .player-page .list-group-item,
+    .player-detail-page .list-group-item,
+    .player-search-page .list-group-item {
+        background: transparent;
+        color: #dbe3ee;
+        border-color: rgba(255, 255, 255, 0.08);
+    }
+
+    /* ---------- Nav / Form / Button ---------- */
+    .player-page .nav-tabs,
+    .player-detail-page .nav-tabs,
+    .player-search-page .nav-tabs {
+        border-bottom-color: rgba(255, 255, 255, 0.12);
+    }
+
+        .player-page .nav-tabs .nav-link,
+        .player-detail-page .nav-tabs .nav-link,
+        .player-search-page .nav-tabs .nav-link {
+            color: #b9c8da;
+            border: none;
+            border-radius: 12px 12px 0 0;
+            margin-right: 0.35rem;
+        }
+
+            .player-page .nav-tabs .nav-link:hover,
+            .player-detail-page .nav-tabs .nav-link:hover,
+            .player-search-page .nav-tabs .nav-link:hover {
+                background: rgba(255, 255, 255, 0.04);
+                color: #fff;
+            }
+
+            .player-page .nav-tabs .nav-link.active,
+            .player-detail-page .nav-tabs .nav-link.active,
+            .player-search-page .nav-tabs .nav-link.active {
+                background: rgba(148, 197, 255, 0.18);
+                color: #f5f9ff;
+                box-shadow: inset 0 -2px 0 rgba(147, 197, 253, 0.9);
+            }
+
+    .player-page .form-control,
+    .player-detail-page .form-control,
+    .player-search-page .form-control {
+        background: #111927;
+        color: #eef4fb;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+        .player-page .form-control:focus,
+        .player-detail-page .form-control:focus,
+        .player-search-page .form-control:focus {
+            background: #111927;
+            color: #fff;
+            border-color: rgba(96, 165, 250, 0.5);
+            box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.16);
+        }
+
+    .player-page .btn-primary,
+    .player-search-page .btn-primary {
+        background: linear-gradient(135deg, #4f8ff6, #3f7be0);
+        border-color: #5ea0ff;
+    }
+
+        .player-page .btn-primary:hover,
+        .player-search-page .btn-primary:hover {
+            background: linear-gradient(135deg, #5c9bff, #4a86e7);
+            border-color: #78b2ff;
+        }
+
+/* ---------- Status page tabs (merged from player-status.css) ---------- */
+.player-tabs {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.tab-btn {
+    flex: 1 1 180px;
+    padding: 14px 18px;
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(32, 45, 66, 0.9);
+    color: #cdd8e6;
+    font-size: 1.05rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+    .tab-btn:last-child {
+        border-right: none;
+    }
+
+    .tab-btn:hover {
+        background: rgba(70, 93, 125, 0.55);
+        color: #f2f7ff;
+    }
+
+    .tab-btn.active {
+        background: rgba(148, 197, 255, 0.2);
+        color: #eaf2ff;
+        box-shadow: inset 0 -3px 0 #7fb4ff;
+    }
+
+pre {
+    background: rgba(22, 35, 52, 0.86);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 0.5rem;
+    color: #dbe3ee;
+    padding: 1rem;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 576px) {
+    .tab-btn {
+        flex: 1 1 50%;
+        font-size: 1rem;
+        padding: 12px 10px;
+    }
+}
+
+/* ---------- Overview tab layout ---------- */
+.player-page .overview-tab .info-item {
+    height: 100%;
+    background: rgba(18, 31, 48, 0.58);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 0.75rem;
+    padding: 0.75rem 0.9rem;
+}
+
+.player-page .overview-tab .info-label {
+    font-size: 0.82rem;
+    color: #95a7bf;
+    margin-bottom: 0.15rem;
+}
+
+.player-page .overview-tab .info-value {
+    color: #eaf2ff;
+    font-weight: 600;
+    line-height: 1.35;
+    word-break: break-word;
+}
+
+.player-page .overview-tab .battle-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.player-page .overview-tab .summary-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+    background: rgba(18, 31, 48, 0.58);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 0.6rem;
+    padding: 0.55rem 0.75rem;
+}
+
+    .player-page .overview-tab .summary-row > span {
+        color: #9cb0c9;
+    }
+
+    .player-page .overview-tab .summary-row > strong {
+        color: #f2f7ff;
+        font-weight: 700;
+    }
+
+/* ---------- Battle Overview Cards ---------- */
+.battle-overview-card {
+    background: linear-gradient(145deg, rgba(32, 45, 66, 0.8), rgba(24, 35, 52, 0.9));
+    border: 1px solid rgba(100, 149, 237, 0.15);
+    border-radius: 12px;
+    padding: 1.25rem;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.battle-overview-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(100, 149, 237, 0.15);
+    border-color: rgba(100, 149, 237, 0.4);
+}
+
+.battle-overview-card .card-title {
+    color: #9cb0c9;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.battle-overview-card .card-value {
+    color: #f3f7fc;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.battle-overview-card .card-desc {
+    color: #8a9fb5;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    white-space: pre-line;
+}
+
+/* ---------- Battle Overview Subtabs ---------- */
+.battle-overview-subtabs {
+    background: rgba(18, 31, 48, 0.4);
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.battle-overview-subtab-btn {
+    flex: 1;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #a4b9cd;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.battle-overview-subtab-btn:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+}
+
+.battle-overview-subtab-btn.active {
+    background: linear-gradient(135deg, rgba(79, 143, 246, 0.2), rgba(63, 123, 224, 0.1));
+    border-color: rgba(79, 143, 246, 0.4);
+    color: #8ab4f8;
+    box-shadow: 0 2px 8px rgba(79, 143, 246, 0.15);
+}
+
+/* ---------- Battle Overview Tables ---------- */
+.detail-table {
+    background: rgba(32, 45, 66, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.detail-table th {
+    background: rgba(24, 35, 52, 0.8) !important;
+    color: #9cb0c9 !important;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    padding: 0.75rem 1rem !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+.detail-table td {
+    padding: 0.75rem 1rem !important;
+    color: #dbe3ee !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03) !important;
+}
+
+.detail-table tbody tr:last-child td {
+    border-bottom: none !important;
+}
+
+.detail-table tbody tr {
+    transition: background-color 0.15s ease;
+}
+
+.detail-table tbody tr:hover td {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+.battle-overview-section-title {
+    color: #f3f7fc;
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.battle-overview-section-title::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    background: #4f8ff6;
+    border-radius: 2px;
+}

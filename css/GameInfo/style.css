@@ -1,0 +1,299 @@
+/* ===== GameInfo / Weapon ===== */
+
+.weapon-page {
+    padding: 0.75rem 0.5rem 2rem;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    color: #e2e8f0;
+}
+
+/* ---------- Caliber Tabs ---------- */
+.weapon-caliber-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 0.75rem;
+    padding: 0 0.25rem;
+}
+
+.caliber-tab {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(100, 116, 139, 0.25);
+    color: #94a3b8;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.35rem 0.85rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.caliber-tab:hover {
+    background: rgba(51, 65, 85, 0.8);
+    color: #cbd5e1;
+    border-color: rgba(148, 163, 184, 0.35);
+}
+
+.caliber-tab.active {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.28), rgba(96, 165, 250, 0.16));
+    color: #e0ecff;
+    border-color: rgba(96, 165, 250, 0.4);
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.12);
+}
+
+/* ---------- Loading ---------- */
+.weapon-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 4rem 1rem;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.weapon-spinner {
+    width: 24px;
+    height: 24px;
+    border: 3px solid rgba(148, 163, 184, 0.2);
+    border-top-color: #60a5fa;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ---------- Table Wrap ---------- */
+.weapon-table-wrap {
+    overflow: auto;
+    max-height: calc(100vh - 170px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(15, 23, 42, 0.6);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* ---------- Table ---------- */
+.weapon-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: max-content;
+    min-width: 100%;
+    font-size: 0.78rem;
+}
+
+.weapon-table th,
+.weapon-table td {
+    padding: 0.45rem 0.65rem;
+    white-space: nowrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    border-right: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+/* ---------- Sticky Header ---------- */
+.weapon-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: linear-gradient(180deg, #0f172a 0%, #131c2e 100%);
+    color: #94a3b8;
+    font-weight: 700;
+    font-size: 0.72rem;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    border-bottom: 2px solid rgba(59, 130, 246, 0.25);
+    user-select: none;
+}
+
+.weapon-table thead th.sortable {
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.weapon-table thead th.sortable:hover {
+    color: #60a5fa;
+}
+
+.weapon-table thead th.sort-asc::after {
+    content: ' ▲';
+    font-size: 0.6rem;
+    color: #60a5fa;
+}
+
+.weapon-table thead th.sort-desc::after {
+    content: ' ▼';
+    font-size: 0.6rem;
+    color: #60a5fa;
+}
+
+/* ---------- Tooltip header ---------- */
+.weapon-table thead th.has-tooltip {
+    text-decoration: underline dotted rgba(148, 163, 184, 0.5);
+    text-underline-offset: 3px;
+    cursor: help;
+}
+
+.weapon-table thead th[title] {
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+    cursor: help;
+}
+
+.weapon-table thead th.has-tooltip:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    top: calc(100% + 5px); /* show below header */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    white-space: normal;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.weapon-table th:first-child,
+.weapon-table td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.weapon-table thead th:first-child {
+    z-index: 30; /* corner cell: above both sticky axes */
+}
+
+.weapon-table td:first-child {
+    background: #0f172a;
+    font-weight: 600;
+    color: #e2e8f0;
+    border-right: 2px solid rgba(59, 130, 246, 0.18);
+}
+
+/* ---------- Weapon Icon ---------- */
+.weapon-table td:first-child {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.weapon-icon {
+    width: 48px;
+    height: 28px;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.weapon-icon[src=""],
+.weapon-icon:not([src]) {
+    display: none;
+}
+
+/* ---------- Body Rows ---------- */
+.weapon-table tbody tr.weapon-row {
+    background: rgba(15, 23, 42, 0.85);
+}
+
+.weapon-table tbody tr.weapon-row:hover {
+    background: rgba(30, 41, 59, 0.9);
+}
+
+.weapon-table tbody tr.weapon-row td {
+    color: #e2e8f0;
+}
+
+/* Accessory sub-rows */
+.weapon-table tbody tr.accessory-row {
+    background: rgba(22, 30, 48, 0.65);
+}
+
+.weapon-table tbody tr.accessory-row:hover {
+    background: rgba(30, 41, 59, 0.75);
+}
+
+.weapon-table tbody tr.accessory-row td {
+    color: #94a3b8;
+    font-size: 0.74rem;
+}
+
+.weapon-table tbody tr.accessory-row td:first-child {
+    padding-left: 1.4rem;
+    background: rgba(15, 23, 42, 0.92);
+    color: #7c8db5;
+    font-weight: 500;
+}
+
+.weapon-table tbody tr.accessory-row td:first-child::before {
+    content: '└ ';
+    color: rgba(100, 116, 139, 0.5);
+}
+
+/* ---------- Separator between weapon groups ---------- */
+.weapon-table tbody tr.weapon-row td {
+    border-top: 1px solid rgba(59, 130, 246, 0.12);
+}
+
+/* ---------- Caliber badge ---------- */
+.caliber-badge {
+    display: inline-block;
+    background: rgba(59, 130, 246, 0.15);
+    color: #93c5fd;
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 0.12rem 0.45rem;
+    border-radius: 4px;
+    margin-left: 0.35rem;
+    vertical-align: middle;
+}
+
+/* ---------- Positive / Negative value colors ---------- */
+.val-positive {
+    color: #4ade80;
+}
+
+.val-negative {
+    color: #f87171;
+}
+
+.val-zero {
+    color: rgba(148, 163, 184, 0.4);
+}
+
+/* ---------- Scrollbar ---------- */
+.weapon-table-wrap::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.weapon-table-wrap::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.5);
+}
+
+.weapon-table-wrap::-webkit-scrollbar-thumb {
+    background: rgba(100, 116, 139, 0.35);
+    border-radius: 4px;
+}
+
+.weapon-table-wrap::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.5);
+}
+
+.weapon-table-wrap::-webkit-scrollbar-corner {
+    background: rgba(15, 23, 42, 0.5);
+}

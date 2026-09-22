@@ -1,0 +1,314 @@
+.announcement-page {
+    width: 100%;
+    min-height: calc(100vh - var(--app-header-height, 64px));
+    padding: 32px clamp(16px, 4vw, 44px) 56px;
+    color: #e8eef7;
+}
+
+.announcement-header {
+    max-width: 980px;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.announcement-kicker {
+    display: block;
+    color: #7dd3fc;
+    font-size: 0.82rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.announcement-title {
+    margin: 0;
+    color: #f8fafc;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.announcement-admin-link,
+.announcement-submit,
+.announcement-delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 8px 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+.announcement-admin-link {
+    color: #e0f2fe;
+    background: rgba(14, 165, 233, 0.14);
+    border-color: rgba(125, 211, 252, 0.24);
+}
+
+.announcement-admin-link:hover,
+.announcement-admin-link:focus {
+    color: #ffffff;
+    background: rgba(14, 165, 233, 0.22);
+}
+
+.announcement-list,
+.announcement-empty,
+.announcement-admin-layout {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.announcement-list {
+    display: grid;
+    gap: 14px;
+}
+
+.announcement-item,
+.announcement-empty,
+.announcement-form,
+.announcement-admin-list,
+.announcement-admin-item,
+.announcement-notice {
+    background: rgba(20, 30, 45, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+}
+
+.announcement-item {
+    padding: 20px;
+}
+
+.announcement-item.is-pinned {
+    border-color: rgba(251, 191, 36, 0.38);
+    background: linear-gradient(180deg, rgba(52, 43, 26, 0.72), rgba(20, 30, 45, 0.94));
+}
+
+.announcement-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: #9fb2ca;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.announcement-pin {
+    display: inline-flex;
+    align-items: center;
+    min-height: 22px;
+    border-radius: 999px;
+    padding: 2px 9px;
+    background: rgba(251, 191, 36, 0.18);
+    color: #fde68a;
+    font-weight: 800;
+    font-size: 0.78rem;
+}
+
+.announcement-item h2,
+.announcement-form h2,
+.announcement-admin-list h2,
+.announcement-admin-item h3,
+.announcement-empty h2 {
+    margin: 0;
+    color: #f8fafc;
+    font-weight: 800;
+}
+
+.announcement-item h2 {
+    font-size: 1.28rem;
+    line-height: 1.35;
+}
+
+.announcement-content {
+    margin-top: 12px;
+    color: #d4dfec;
+    line-height: 1.8;
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+}
+
+.announcement-empty {
+    padding: 28px;
+    text-align: center;
+}
+
+.announcement-empty p,
+.announcement-admin-empty {
+    margin: 8px 0 0;
+    color: #9fb2ca;
+}
+
+.announcement-admin-layout {
+    display: grid;
+    grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+    gap: 16px;
+    align-items: start;
+}
+
+.announcement-form,
+.announcement-admin-list {
+    padding: 18px;
+}
+
+.announcement-form h2,
+.announcement-admin-list h2 {
+    font-size: 1.15rem;
+    margin-bottom: 16px;
+}
+
+.announcement-field {
+    display: grid;
+    gap: 7px;
+    margin-bottom: 14px;
+}
+
+.announcement-field label,
+.announcement-check {
+    color: #cbd8e7;
+    font-weight: 700;
+}
+
+.announcement-field input,
+.announcement-field textarea {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    background: #101827;
+    color: #eef4fb;
+    padding: 10px 12px;
+}
+
+.announcement-field textarea {
+    resize: vertical;
+    min-height: 170px;
+}
+
+.announcement-field input:focus,
+.announcement-field textarea:focus {
+    outline: none;
+    border-color: rgba(56, 189, 248, 0.58);
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.12);
+}
+
+.announcement-form-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 14px;
+    align-items: end;
+}
+
+.announcement-check {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.announcement-check input {
+    width: 18px;
+    height: 18px;
+}
+
+.announcement-submit {
+    width: 100%;
+    color: #082f49;
+    background: #7dd3fc;
+}
+
+.announcement-submit:hover,
+.announcement-submit:focus {
+    color: #082f49;
+    background: #bae6fd;
+}
+
+.announcement-admin-list {
+    display: grid;
+    gap: 12px;
+}
+
+.announcement-admin-item {
+    padding: 14px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+    align-items: start;
+}
+
+.announcement-admin-item h3 {
+    font-size: 1rem;
+    line-height: 1.35;
+}
+
+.announcement-admin-item p {
+    margin: 8px 0 0;
+    color: #b7c7da;
+    line-height: 1.65;
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+}
+
+.announcement-delete {
+    color: #fecaca;
+    background: rgba(239, 68, 68, 0.13);
+    border-color: rgba(248, 113, 113, 0.24);
+}
+
+.announcement-delete:hover,
+.announcement-delete:focus {
+    color: #ffffff;
+    background: rgba(239, 68, 68, 0.24);
+}
+
+.announcement-error {
+    color: #fca5a5;
+    font-size: 0.9rem;
+}
+
+.announcement-notice {
+    max-width: 980px;
+    margin: 0 auto 16px;
+    padding: 12px 14px;
+    color: #bbf7d0;
+    background: rgba(22, 101, 52, 0.22);
+    border-color: rgba(74, 222, 128, 0.24);
+}
+
+@media (max-width: 991.98px) {
+    .announcement-admin-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .announcement-page {
+        padding: 22px 14px 40px;
+    }
+
+    .announcement-header,
+    .announcement-form-row,
+    .announcement-admin-item {
+        grid-template-columns: 1fr;
+    }
+
+    .announcement-header {
+        display: grid;
+        align-items: start;
+    }
+
+    .announcement-title {
+        font-size: 1.65rem;
+    }
+
+    .announcement-admin-link,
+    .announcement-delete {
+        width: 100%;
+    }
+}
