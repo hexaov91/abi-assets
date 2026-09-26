@@ -1,7 +1,7 @@
 .wb-page { --wb-line: #373b3e; --wb-muted: #b3b8bd; padding: 20px 16px; color: #e8eaeb; background: #1d2123; letter-spacing: 0; }
 .wb-page *, .wb-page *::before, .wb-page *::after { box-sizing: border-box; }
 .wb-page [hidden] { display: none !important; }
-.wb-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.wb-heading { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
 .wb-heading { padding-bottom: 16px; border-bottom: 1px solid var(--wb-line); margin-bottom: 16px; }
 .wb-heading h1 { font-size: 24px; margin: 0; }
 .wb-heading span, .wb-muted { color: var(--wb-muted); font-size: 12px; }

@@ -2,6 +2,7 @@
 body:has(.merchant-page) .app-shell { padding-top: var(--merchant-header-height, var(--app-header-height, 64px)); }
 .merchant-heading, .merchant-section-title, .merchant-filter-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .merchant-heading { border-bottom: 1px solid #43494b; padding-bottom: 14px; margin-bottom: 16px; flex-wrap: wrap; }
+.merchant-heading-title { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; min-width: 0; }
 .merchant-heading h1 { font-size: 24px; margin: 0; }
 .merchant-heading span { color: #afbebc; font-size: 13px; }
 .merchant-layout { display: grid; grid-template-columns: 280px minmax(0,1fr); gap: 20px; }

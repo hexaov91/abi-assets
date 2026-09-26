@@ -82,6 +82,164 @@
     animation: cl-fadeIn 0.3s ease;
 }
 
+/* ---------- Version tabs ---------- */
+.changelog-version-tabs {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0.35rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    background: rgba(15, 23, 42, 0.5);
+    scrollbar-width: thin;
+}
+
+.changelog-version-tab {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 14rem;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 0.65rem 0.8rem;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    border-radius: 7px;
+    background: rgba(30, 41, 59, 0.62);
+    color: #cbd5e1;
+    text-align: left;
+    cursor: pointer;
+    font: inherit;
+    transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.changelog-version-tab:hover,
+.changelog-version-tab:focus-visible {
+    border-color: rgba(96, 165, 250, 0.6);
+    background: rgba(51, 65, 85, 0.78);
+    outline: none;
+}
+
+.changelog-version-tab.is-active,
+.changelog-version-tab[aria-selected="true"] {
+    border-color: rgba(96, 165, 250, 0.9);
+    background: rgba(30, 64, 175, 0.34);
+    color: #f8fafc;
+}
+
+.version-tab-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.version-tab-title .ver-from {
+    color: #94a3b8;
+}
+
+.version-tab-title .ver-arrow {
+    color: #60a5fa;
+    font-size: 0.72rem;
+}
+
+.version-tab-title .ver-to {
+    color: #93c5fd;
+}
+
+.version-tab-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.65rem;
+    color: #64748b;
+    font-size: 0.68rem;
+    white-space: nowrap;
+}
+
+.changelog-version-tab.is-active .version-tab-meta,
+.changelog-version-tab[aria-selected="true"] .version-tab-meta {
+    color: #bfdbfe;
+}
+
+.changelog-version-panels {
+    min-width: 0;
+}
+
+.changelog-version-panel {
+    margin-bottom: 0;
+}
+
+.changelog-version-panel .changelog-version-header {
+    cursor: default;
+}
+
+.changelog-version-panel:focus-visible {
+    outline: 2px solid rgba(96, 165, 250, 0.75);
+    outline-offset: 2px;
+}
+
+/* ---------- Season and change type tabs ---------- */
+.changelog-season-panel,
+.changelog-types,
+.changelog-type-panels,
+.changelog-type-panel {
+    min-width: 0;
+}
+
+.changelog-season-tabs,
+.changelog-type-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid #414854;
+}
+
+.changelog-season-tab,
+.changelog-type-tab {
+    min-height: 2.75rem;
+    max-width: 100%;
+    padding: 0.6rem 0.9rem;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    background: transparent;
+    color: #b9c3cf;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+}
+
+.changelog-season-tab:hover,
+.changelog-type-tab:hover {
+    color: #f2f3f5;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.changelog-season-tab[aria-selected="true"],
+.changelog-type-tab[aria-selected="true"] {
+    color: #f5d569;
+    border-bottom-color: currentColor;
+}
+
+.changelog-season-tab:focus-visible,
+.changelog-season-panel:focus-visible,
+.changelog-type-tab:focus-visible,
+.changelog-type-panel:focus-visible {
+    outline: 2px solid #f5d569;
+    outline-offset: -2px;
+}
+
+.changelog-season-panel[hidden],
+.changelog-version-panel[hidden],
+.changelog-type-panel[hidden] {
+    display: none;
+}
+
 @keyframes cl-fadeIn {
     from { opacity: 0; transform: translateY(8px); }
     to { opacity: 1; transform: translateY(0); }
@@ -169,6 +327,18 @@
     color: #94a3b8;
     font-size: 0.875rem;
 }
+
+.changelog-feature { padding: 0.5rem; min-width: 0; overflow-wrap: anywhere; }
+.changelog-feature h2 { margin: 0 0 0.75rem; font-size: 1rem; color: #e2e8f0; }
+.changelog-feature ul { margin: 0 0 1rem; padding-left: 1.25rem; font-size: 0.85rem; line-height: 1.7; }
+.changelog-feature li + li { margin-top: 0.4rem; }
+.changelog-cargo-heading { color: #93c5fd; font-size: 0.9rem; margin: 0 0 0.5rem; }
+.changelog-cargo { margin-top: 1rem; border-top: 1px solid #414854; padding-top: 0.75rem; }
+.changelog-cargo h4 { font-size: 0.9rem; margin: 0 0 0.3rem; }
+.changelog-cargo p { color: #aeb8c6; font-size: 0.8rem; margin: 0 0 0.5rem; }
+.changelog-cargo-table { table-layout: fixed; }
+.changelog-cargo-table th, .changelog-cargo-table td { white-space: normal !important; overflow-wrap: anywhere; letter-spacing: 0 !important; }
+.changelog-cargo-table th:first-child { width: 44%; }
 
 /* ---------- Category Section ---------- */
 .changelog-category {
@@ -324,6 +494,10 @@
         flex-wrap: wrap;
         gap: 0.4rem;
         padding: 0.65rem 0.75rem;
+    }
+
+    .changelog-version-tab {
+        min-width: 12.5rem;
     }
 
     .version-date {
