@@ -2,4 +2,4 @@ Package: @fingerprintjs/fingerprintjs
 Version: 5.2.0
 Source: https://registry.npmjs.org/@fingerprintjs/fingerprintjs/-/fingerprintjs-5.2.0.tgz
 File: dist/fp.min.js (plus WebJsBrowserIdentity collector)
-SHA-384: mKoa5QPi2PW6vOXYjSyRBUX598e1K1MLGhlPG+f8JD6Mmby9cde1nUbR0NFTx0WU
+SHA-384: REa7J2dbuQaxNjAL+cKjGDEIkN1v7Kej+jDJ9QJhvlAMVCttEi1C/su+wH/cdH9x
