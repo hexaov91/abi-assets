@@ -16,6 +16,8 @@
 .equipment-value-result-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:20px 0 10px}
 .equipment-value-result-heading h2{margin:0;font-size:20px}.equipment-value-result-heading span{color:#b7b7b7;font-size:13px}
 .equipment-value-results{display:grid;gap:12px}
+.equipment-value-ranking{display:grid;gap:12px;min-width:0}
+.equipment-value-ranking+.equipment-value-ranking{margin-top:16px;border-top:1px solid #414141}
 .equipment-value-result{background:#252525;border:1px solid #414141;border-radius:6px;overflow:hidden}
 .equipment-value-result>header{display:flex;align-items:center;gap:20px;padding:11px 15px;border-bottom:1px solid #414141;color:#d0d0d0}
 .equipment-value-result>header strong{color:#f0cf83;font-size:18px;flex:0 0 auto}.equipment-value-result>header b{color:#a9dfc2;font-size:17px}.equipment-value-result>header small{color:#b7b7b7}
