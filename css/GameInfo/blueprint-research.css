@@ -1,0 +1,105 @@
+.blueprint-research-page { padding: 22px 18px 36px; color: #e8eaeb; background: #1d2123; min-height: 420px; letter-spacing: 0; }
+.blueprint-research-page *, .blueprint-research-page *::before, .blueprint-research-page *::after { box-sizing: border-box; }
+.blueprint-research-page [hidden] { display: none !important; }
+.blueprint-research-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid #373b3e; padding-bottom: 16px; margin-bottom: 16px; }
+.blueprint-research-heading h1 { font-size: 24px; margin: 0; }
+.blueprint-research-status, .blueprint-research-empty { color: #b3b8bd; padding: 16px 0; }
+.blueprint-research-retry { border: 1px solid #668d87; border-radius: 4px; background: #283a37; color: #e8f2ef; padding: 8px 14px; cursor: pointer; }
+.blueprint-research-add-controls { display: flex; gap: 8px; max-width: 620px; }
+.blueprint-research-input { min-width: 0; flex: 1; border: 1px solid #50565a; border-radius: 4px; background: #202326; color: #e8eaeb; padding: 8px 10px; }
+.blueprint-research-input:focus, .blueprint-research-action:focus-visible, .blueprint-research-item-current:focus-visible, .blueprint-research-item-option:focus-visible, .blueprint-research-copy:focus-visible { outline: 2px solid #8dd9ce; outline-offset: 2px; }
+.blueprint-research-action { border: 1px solid #668d87; border-radius: 4px; background: #283a37; color: #e8f2ef; padding: 8px 14px; cursor: pointer; white-space: nowrap; }
+.blueprint-research-action:disabled { opacity: .55; cursor: wait; }
+.blueprint-research-layout { display: grid; grid-template-columns: minmax(250px, 31%) minmax(0, 1fr); gap: 22px; }
+.blueprint-research-filters { align-self: start; position: sticky; top: calc(var(--blueprint-research-header-height, var(--app-header-height, 64px)) + 12px); max-height: calc(100dvh - var(--blueprint-research-header-height, var(--app-header-height, 64px)) - 24px); border-right: 1px solid #373b3e; padding-right: 18px; min-width: 0; background: #1d2123; overflow-y: auto; overscroll-behavior-y: contain; scrollbar-gutter: stable; scrollbar-width: thin; scrollbar-color: #5a716b #1d2123; }
+.blueprint-research-filters::-webkit-scrollbar { width: 6px; }
+.blueprint-research-filters::-webkit-scrollbar-track { background: #1d2123; }
+.blueprint-research-filters::-webkit-scrollbar-thumb { background: #5a716b; border-radius: 3px; }
+.blueprint-research-filters > label, .blueprint-research-affix-heading { color: #b3b8bd; font-size: 12px; }
+.blueprint-research-item-picker { position: relative; margin: 6px 0 18px; }
+.blueprint-research-item-current { width: 100%; min-height: 62px; display: flex; align-items: center; gap: 9px; text-align: left; border: 1px solid #50565a; border-radius: 4px; background: #202326; color: #e8eaeb; padding: 7px 9px; cursor: pointer; }
+.blueprint-research-item-current-info, .blueprint-research-item-option-info { min-width: 0; display: flex; flex-direction: column; gap: 3px; flex: 1; }
+.blueprint-research-item-name { min-width: 0; overflow-wrap: anywhere; line-height: 1.35; }
+.blueprint-research-item-meta { color: #9ca4a8; font-size: 11px; font-weight: 400; line-height: 1.3; }
+.blueprint-research-item-placeholder { color: #92999e; }
+.blueprint-research-item-chevron { color: #b3b8bd; font-size: 16px; margin-left: auto; }
+.blueprint-research-item-image { flex: 0 0 auto; width: 42px; height: 42px; object-fit: contain; }
+.blueprint-research-item-options { position: absolute; z-index: 10; top: calc(100% + 4px); left: 0; right: 0; max-height: 380px; overflow: auto; border: 1px solid #50565a; border-radius: 4px; background: #202326; box-shadow: 0 8px 22px rgba(0, 0, 0, .35); }
+.blueprint-research-item-option { width: 100%; display: flex; align-items: center; gap: 9px; border: 0; border-bottom: 1px solid #303538; background: transparent; color: #e8eaeb; text-align: left; padding: 8px 9px; cursor: pointer; }
+.blueprint-research-item-option:last-child { border-bottom: 0; }
+.blueprint-research-item-option:hover, .blueprint-research-item-option[aria-selected="true"] { background: #2a3335; }
+.blueprint-research-affix-heading { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.blueprint-research-clear { border: 0; background: transparent; color: #9bd7ed; padding: 2px 0; cursor: pointer; font-size: 12px; }
+.blueprint-research-affixes { max-height: 590px; overflow: auto; margin-top: 8px; }
+.blueprint-research-affix { display: flex; align-items: flex-start; gap: 8px; padding: 9px 4px; border-bottom: 1px solid #303538; cursor: pointer; }
+.blueprint-research-affix input { margin-top: 4px; accent-color: #8dd9ce; flex: 0 0 auto; }
+.blueprint-research-affix-body { min-width: 0; display: block; }
+.blueprint-research-affix-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; line-height: 1.4; }
+.blueprint-research-affix-title small, .blueprint-research-player-affix small { color: #b3b8bd; font-size: 11px; font-weight: 400; white-space: nowrap; }
+.blueprint-research-effect { display: block; color: #c7cccf; font-size: 12px; line-height: 1.55; white-space: pre-line; overflow-wrap: anywhere; margin-top: 3px; }
+.blueprint-research-effect-muted, .blueprint-research-muted { color: #92999e; font-size: 12px; line-height: 1.6; }
+.blueprint-research-results { min-width: 0; }
+.blueprint-research-result-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; border-bottom: 1px solid #373b3e; padding-bottom: 12px; }
+.blueprint-research-result-heading h2 { font-size: 19px; margin: 0 0 4px; overflow-wrap: anywhere; }
+.blueprint-research-updated { text-align: right; }
+.blueprint-research-player { border-bottom: 1px solid #373b3e; padding: 15px 0; }
+.blueprint-research-player-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.blueprint-research-identity { min-width: 0; display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: 6px; }
+.blueprint-research-copy { position: relative; border: 0; background: transparent; color: #e8eaeb; text-align: left; padding: 0; cursor: pointer; }
+.blueprint-research-copy::after { content: attr(data-tooltip); position: absolute; z-index: 3; left: 0; bottom: calc(100% + 7px); max-width: 220px; padding: 5px 8px; border: 1px solid #50565a; border-radius: 4px; background: #15181a; color: #e8eaeb; font-size: 11px; line-height: 1.35; white-space: nowrap; opacity: 0; pointer-events: none; transform: translateY(3px); transition: opacity .12s ease, transform .12s ease; }
+.blueprint-research-copy:hover::after, .blueprint-research-copy:focus-visible::after, .blueprint-research-copy.is-copied::after { opacity: 1; transform: translateY(0); }
+.blueprint-research-copy:hover { color: #9bd7ed; }
+.blueprint-research-copy-name { font-weight: 700; }
+.blueprint-research-gid { color: #9ca4a8; font-size: 12px; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.blueprint-research-score { color: #e3c96b; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.blueprint-research-player-details { display: flex; flex-wrap: wrap; gap: 5px 14px; margin-top: 7px; color: #9ca4a8; font-size: 11px; font-variant-numeric: tabular-nums; }
+.blueprint-research-affix-columns { min-width: 0; margin-top: 11px; }
+.blueprint-research-player-affixes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.blueprint-research-player-affix { min-width: 0; border-left: 3px solid #879197; background: #292d30; padding: 8px 9px; }
+.blueprint-research-player-affix strong { display: block; overflow-wrap: anywhere; line-height: 1.4; }
+.blueprint-research-player-affix small { display: block; margin-top: 3px; }
+.blueprint-research-player-affix.q6 { border-color: #f29c9c; }
+.blueprint-research-player-affix.q5 { border-color: #e3c96b; }
+.blueprint-research-player-affix.q4 { border-color: #bd9fe4; }
+.blueprint-research-player-affix.q3 { border-color: #87bade; }
+.blueprint-research-affix.q6 .blueprint-research-affix-title strong { color: #f29c9c; }
+.blueprint-research-affix.q5 .blueprint-research-affix-title strong { color: #e3c96b; }
+.blueprint-research-affix.q4 .blueprint-research-affix-title strong { color: #bd9fe4; }
+.blueprint-research-affix.q3 .blueprint-research-affix-title strong { color: #87bade; }
+.blueprint-research-copy.is-copied { color: #8dd9ce; }
+.blueprint-research-dialog { width: min(620px, calc(100vw - 24px)); max-width: 100%; border: 1px solid #50565a; border-radius: 6px; padding: 0; background: #202326; color: #e8eaeb; box-shadow: 0 18px 55px rgba(0, 0, 0, .55); }
+.blueprint-research-dialog::backdrop { background: rgba(5, 7, 8, .72); }
+.blueprint-research-dialog-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px; border-bottom: 1px solid #373b3e; }
+.blueprint-research-dialog-heading h2 { margin: 0; font-size: 18px; }
+.blueprint-research-dialog-close { width: 30px; height: 30px; border: 0; background: transparent; color: #b3b8bd; font-size: 24px; line-height: 1; cursor: pointer; }
+.blueprint-research-dialog-close:hover { color: #e8eaeb; }
+.blueprint-research-dialog-body { max-height: calc(100dvh - 88px); overflow-y: auto; padding: 16px; }
+.blueprint-research-dialog-body > label { display: block; margin-bottom: 7px; color: #b3b8bd; font-size: 12px; }
+.blueprint-research-add-result { margin-top: 16px; border-top: 1px solid #373b3e; padding-top: 14px; }
+.blueprint-research-add-result.is-error { color: #f0a1a1; line-height: 1.55; }
+.blueprint-research-add-success-title { margin: 0 0 12px; color: #8dd9ce; font-size: 16px; }
+.blueprint-research-add-success-player { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; color: #e8eaeb; }
+.blueprint-research-add-research-list { display: grid; gap: 12px; }
+.blueprint-research-add-research { border-bottom: 1px solid #373b3e; padding: 2px 0 12px; }
+.blueprint-research-add-research-heading { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.blueprint-research-add-research-heading .blueprint-research-item-image { width: 48px; height: 48px; }
+.blueprint-research-add-research-item { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: 3px; }
+.blueprint-research-add-research-item strong { overflow-wrap: anywhere; line-height: 1.4; }
+.blueprint-research-add-research-item small { color: #9ca4a8; font-size: 11px; }
+.blueprint-research-add-research-heading .blueprint-research-score { margin-left: auto; }
+.blueprint-research-add-research .blueprint-research-player-affixes { margin-top: 9px; }
+@media (max-width: 760px) {
+    .blueprint-research-page { padding: 16px 10px 28px; }
+    .blueprint-research-layout { display: block; }
+    .blueprint-research-filters { position: static; max-height: none; border-right: 0; border-bottom: 1px solid #373b3e; padding: 0 0 16px; margin-bottom: 16px; overflow: visible; }
+    .blueprint-research-affixes { max-height: 310px; }
+    .blueprint-research-result-heading { display: block; }
+    .blueprint-research-updated { text-align: left; margin-top: 5px; }
+}
+@media (max-width: 520px) {
+    .blueprint-research-heading { align-items: flex-start; }
+    .blueprint-research-heading h1 { font-size: 20px; }
+    .blueprint-research-add-controls { display: grid; grid-template-columns: minmax(0, 1fr) auto; }
+    .blueprint-research-player-heading { align-items: flex-start; }
+    .blueprint-research-player-affixes { grid-template-columns: 1fr; }
+}
